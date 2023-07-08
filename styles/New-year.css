@@ -38,3 +38,47 @@ header {
     color: white;
     background-color: #404040f6;
 }
+
+/* failure section */
+.failures {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 1000px;
+    margin: 100px auto;
+    gap: 100px;
+}
+
+.failure-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.failure-description {
+    width: 500px;
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.failure-description ul {
+    list-style: none;
+}
+
+.failure-description ul li:before {
+
+    content: '✓';
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 5px;
+    color: #16D887;
+}
+
+.failure-img {
+    width: 500px;
+}
