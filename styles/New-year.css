@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
 header {
     width: 100%;
     height: 808px;
@@ -18,12 +27,14 @@ header {
 }
 
 .banner-description {
+    margin-top: 20px;
     font-family: Work Sans;
     font-weight: 400;
     line-height: 26px;
 }
 
 .banner-btn {
+    margin-top: 20px;
     height: 60px;
     width: 150px;
     border-radius: 5px;
@@ -44,7 +55,6 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    width: 1000px;
     margin: 100px auto;
     gap: 100px;
 }
@@ -66,8 +76,13 @@ header {
     line-height: 26px;
 }
 
+.failure-text {
+    margin-top: 20px;
+}
+
 .failure-description ul {
     list-style: none;
+    margin-top: 20px;
 }
 
 .failure-description ul li:before {
@@ -81,4 +96,46 @@ header {
 
 .failure-img {
     width: 500px;
+}
+
+/*  plan section */
+.plan-container {
+    margin: 50px auto;
+}
+
+.plan-items {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.plan-item {
+    text-align: center;
+}
+
+.plan-title {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-item img {
+    width: 93px;
+}
+
+.plan-item-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.plan-item-info {
+    color: #737272;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
 }
