@@ -144,6 +144,8 @@ header {
 /* Mind set section */
 .mindset-container {
     background-image: url('../images/gradient1.png'), url(../images/watch.png);
+    background-position: center;
+    border-radius: 5px;
     background-repeat: no-repeat;
     margin: 100px 0;
 }
