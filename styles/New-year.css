@@ -1,5 +1,6 @@
-* {
+body {
     margin: 0;
+    width: 100%;
 }
 
 main {
@@ -35,13 +36,13 @@ header {
 
 .banner-btn {
     margin-top: 20px;
-    height: 60px;
+    height: 50px;
     width: 150px;
     border-radius: 5px;
     color: #005FAC;
     font-family: Work Sans;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     border: 0;
 }
 
@@ -138,4 +139,97 @@ header {
     font-family: Work Sans;
     font-size: 18px;
     font-weight: 500;
+}
+
+/* Mind set section */
+.mindset-container {
+    background-image: url('../images/gradient1.png'), url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin: 100px 0;
+}
+
+.mindset-field {
+    padding: 50px 50px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.mindset-title {
+    margin-bottom: 0;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* footer section start */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+    background: #000;
+    color: white;
+}
+
+.foot-title {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.foot-description {
+    font-style: normal;
+    line-height: 26px;
+}
+
+.foot-form form input {
+    display: block;
+}
+
+.input-email {
+    padding: 12px 80px 12px 20px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 15px 40px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    background-color: #005FAC;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.social-link a {
+    margin-right: 10px;
+}
+
+.fa-facebook-f {
+    font-size: 30px;
+    color: #005FAC;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+
+}
+
+.fa-youtube {
+    font-size: 30px;
+    color: red;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    font-size: 30px;
+    color: #005FAC;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
 }
